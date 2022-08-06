@@ -35,6 +35,7 @@ jobs:
         run: |
           pwd
           ls -ltra
+          ls -ltra target
       
       - name: step5 - clean and package project
         run: mvn clean package
@@ -43,6 +44,7 @@ jobs:
         run: |
           pwd
           ls -ltra
+          ls -ltra target
         
         
         
